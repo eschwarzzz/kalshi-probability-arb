@@ -51,7 +51,7 @@ Execution constraints applied during walk-forward:
 | Parameter | Value | Description |
 |---|---|---|
 | Bankroll | 10,000 cents ($100) | Starting capital per market |
-| Kelly fraction | Variable | Kelly criterion for conservative sizing |
+| Kelly fraction | Variable, depends on forecasted probability | Kelly criterion for conservative sizing |
 | Min edge threshold | 10% | Minimum model vs. market disagreement to trade |
 | Max positions | 3 | Simultaneous open positions, limited to decrease impact on market price when liquidity low |
 | Stop loss | 500 cents ($5) per strike | Cumulative loss limit before blocking a strike |
