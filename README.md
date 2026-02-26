@@ -86,7 +86,7 @@ Re-running this backtest may shift results by a few trades due to variance in th
 | Jan 26 - 30 | +407.59c | 5 | 60.0% |
 | Feb 2 - 6 | +9902.17c | 13 | 69.2% |
 | Feb 9 - 13 | +6289.62c | 11 | 90.9% |
-| Feb 16 - 20 | ++4921.22c | 14 | 71.4% |
+| Feb 16 - 20 | +4921.22c | 14 | 71.4% |
 
 ## Discussion
 As this strategy usually ends up trading lower-probability markets that have inflated prices due to factors including but not limited to psychological biases and lack of information, this good performance is within the realm of possibility of continuing if live traded. This happens because we are trading very small amounts due to the fact that these markets have incredibly thin liquidity, which is accounted for in the simulated order book used. In practice, the maximum liquidity available to still have a significant edge with this strategy varies, but should be around the $500-1000 dollar mark, meaning there is little money to be made with this strategy for the effort and computing power you would put in. However, conceptually, this demonstrates the alpha available in prediction markets through creating a prediction model that uses information not considered by the average gambler, albeit this needs to be tested on a greater sample size than the 3.5 months of data I had available.
