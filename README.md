@@ -4,7 +4,7 @@ Backtesting system for trading WTI crude oil weekly binary options on [Kalshi](h
 
 ## Economic Rationale
 
-There are three main factors that cause the edge found in this strategy to exist: longshot bias, lower quality market participants, and illiquidity. Longshot bias is betting pattern where betters overvalue longshots and undervalue favorite outcomes. Due to the lower quality of market participants who choose to trade in a betting market rather than trading WTI futures (if they had a legitimate strategy worth funding at scale, they would be trading the significantly more liquid asset), I believe this bias exists within these markets. 
+There are three main factors that cause the edge found in this strategy to exist: longshot bias, lower quality market participants, and illiquidity. Longshot bias is the betting pattern where betters overvalue longshots and undervalue favorite outcomes. Due to the lower quality of market participants who choose to trade in a betting market rather than trading WTI futures (if they had a legitimate strategy worth funding at scale, they would be trading the significantly more liquid asset), I believe this bias exists within these markets. 
 
 If this bias exists, why hasn't it already been arbitraged away by a well-capitalized fund or individual? These betting markets for liquid financial assets, which this strategy focuses on, act as extremely illiquid derivatives (the entire market value of a weekly WTI prediction market is around $500k), where the profits of exploiting this edge would not be scalable to the level required for a larger fund to justify the expenditure of time and computing power it takes to create and deploy a trading strategy.
 
