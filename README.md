@@ -69,9 +69,9 @@ Execution constraints applied during walk-forward:
 
 ## Results
 
-Total P&L: +62024.21 cents ($+620.24)<br>
+Total P&L: +62024.21 cents (620.24% return)<br>
 Sharpe: 2.04<br>
-Win Rate: 78.9<br>
+Win Rate: 78.9%<br>
 Profitable markets: 7/7<br>
 <br>
 Re-running this backtest may shift results by a few trades due to variance in the Montecarlo simulations, but every result I have gotten re-testing has been close to those listed above in every metric.
